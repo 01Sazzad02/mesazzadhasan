@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sazzad Hasan | Professional Tutor</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            scroll-behavior: smooth;
+            background-color: #f9fafb;
+        }
+        header {
+            background: linear-gradient(135deg, #4CAF50 0%, #2C6E49 100%);
+            color: #fff;
+        }
+        .hero-text {
+            backdrop-filter: blur(10px);
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background: linear-gradient(135deg, #4CAF50, #2C6E49);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="relative h-screen flex items-center justify-center text-center text-white">
+        <img src="file-HsysfESnb82V5PEeg1wa9w" alt="Sazzad Hasan" class="absolute inset-0 object-cover w-full h-full opacity-30">
+        <div class="z-10 hero-text px-4 py-8 rounded-xl bg-white/10 shadow-lg">
+            <h1 class="text-5xl font-bold" data-aos="fade-down">Welcome! I’m <span class="text-yellow-300">Sazzad Hasan</span></h1>
+            <p class="mt-4 text-lg font-light" data-aos="fade-up">Your guide to mastering <b>Physics</b> & <b>Biology</b></p>
+            <a href="#courses" class="mt-8 inline-block bg-yellow-400 text-black px-6 py-3 rounded-full font-semibold shadow hover:bg-yellow-300 transition">Explore Courses</a>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="sticky top-0 bg-white shadow-lg z-50">
+        <div class="flex justify-center py-4">
+            <a href="#home" class="mx-6 text-lg text-green-600 hover:text-gray-800 font-semibold">Home</a>
+            <a href="#courses" class="mx-6 text-lg text-green-600 hover:text-gray-800 font-semibold">Courses</a>
+            <a href="#contact" class="mx-6 text-lg text-green-600 hover:text-gray-800 font-semibold">Contact</a>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="home" class="py-20 text-center bg-gray-100">
+        <h2 class="text-4xl font-bold text-green-700 mb-6" data-aos="fade-right">About Me</h2>
+        <p class="max-w-4xl mx-auto text-lg leading-relaxed text-gray-700" data-aos="fade-up">
+            Hello, I’m <b>Sazzad Hasan</b>, a passionate tutor with experience teaching <b>Physics</b> and <b>Biology</b> to intermediate students. I’ve guided many local students to success. If you’re looking for a mentor who simplifies concepts, let’s connect and embark on your learning journey.
+        </p>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="py-20 bg-white">
+        <h2 class="text-4xl font-bold text-center text-green-700 mb-10" data-aos="fade-down">Courses I Offer</h2>
+        <div class="flex justify-center flex-wrap">
+            <!-- Physics Course -->
+            <div class="card bg-gray-50 shadow-lg rounded-lg p-6 m-4 w-80 text-center" data-aos="flip-left">
+                <i class="fas fa-atom text-5xl text-green-600 mb-4"></i>
+                <h3 class="text-2xl font-bold text-green-700">Physics</h3>
+                <p class="mt-2 text-gray-700">Level: Inter 1st & 2nd Year</p>
+                <p><b>Salary:</b> 2k/month</p>
+                <p><b>Days:</b> Sat, Mon, Wed</p>
+            </div>
+            <!-- Biology Course -->
+            <div class="card bg-gray-50 shadow-lg rounded-lg p-6 m-4 w-80 text-center" data-aos="flip-right">
+                <i class="fas fa-dna text-5xl text-green-600 mb-4"></i>
+                <h3 class="text-2xl font-bold text-green-700">Biology</h3>
+                <p class="mt-2 text-gray-700">Level: Inter 1st & 2nd Year</p>
+                <p><b>Salary:</b> 1.5k/month</p>
+                <p><b>Days:</b> Sat, Mon, Wed</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-100 text-center">
+        <h2 class="text-4xl font-bold text-green-700 mb-6" data-aos="fade-up">Get in Touch</h2>
+        <div class="text-lg text-gray-700">
+            <p data-aos="fade-up"><b>WhatsApp:</b> <a href="https://wa.me/01998900513" class="text-green-600 hover:underline">01998900513</a></p>
+            <p data-aos="fade-up" data-aos-delay="100"><b>Telegram:</b> <a href="https://t.me/Sazzad146" class="text-green-600 hover:underline">@Sazzad146</a></p>
+            <p data-aos="fade-up" data-aos-delay="200"><b>Email:</b> <a href="mailto:01sazzadhasan02@gmail.com" class="text-green-600 hover:underline">01sazzadhasan02@gmail.com</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white text-center py-6">
+        <p>&copy; 2024 Sazzad Hasan | Designed with passion</p>
+    </footer>
+
+    <!-- AOS Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+            once: true
+        });
+    </script>
+</body>
+</html>
